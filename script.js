@@ -1,4 +1,4 @@
-// Création du bouton hamburger et gestion de l'affichage du menu
+//CODE JS generer par l'IA
 
 const nav = document.querySelector('.nav-links');
 const navbar = document.querySelector('.navbar .nav-container');
