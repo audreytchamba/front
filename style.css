@@ -1,9 +1,17 @@
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+        * 
+        header {
+            display: flex;
+            justify-content: center; /* centre horizontalement */
+            align-items: center;     /* centre verticalement */
+            height: 100vh;
+            }
+
+            .logo {
+            width: 60px;       /* taille du logo */
+            height: 60px;      /* même valeur pour largeur et hauteur */
+            border-radius: 50%; /* rend l’image circulaire */
+            object-fit: cover;  /* ajuste l’image sans la déformer */
         }
 
         body {
@@ -35,6 +43,10 @@
         }
 
         .logo {
+            width: 60px;       /* taille du logo */
+            height: 60px;      /* même valeur pour largeur et hauteur */
+            border-radius: 50%; /* rend l'image circulaire */
+            object-fit: cover;  /* ajuste l'image sans la déformer */
             font-size: 1.9rem;
             font-weight: 700;
             color: #0b2b40;
